@@ -1,0 +1,870 @@
+C:/Users/karldev/.cargo/bin/cargo.exe run --color=always --package xml-rs-read-xml --bin xml-rs-read-xml
+   Compiling xml-rs-read-xml v0.1.0 (C:\Users\karldev\Desktop\dev\blogs\rust\xml-rs-read-xml)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.76s
+     Running `target\debug\xml-rs-read-xml.exe`
+EPCISDocument {
+    epcis_header: EPCISHeader {
+        standard_business_document_header: StandardBusinessDocumentHeader {
+            header_version: "1.0",
+            sender: SenderIdentifier {
+                identifier: SenderReceiverIdentifier {
+                    authority: "GLN",
+                    element_content: "00000000",
+                },
+            },
+            receiver: ReceiverIdentifier {
+                identifier: SenderReceiverIdentifier {
+                    authority: "GLN",
+                    element_content: "11111111",
+                },
+            },
+            document_id: DocumentIdentification {
+                standard: "EPCGlobal",
+                type_version: "1.0",
+                instance_identifier: "0a59e4fc-3b79-459e-9512-732a89a60ccc",
+                doc_id_type: "Events",
+                creation_date_time: "2019-10-19T16:33:49.341Z",
+            },
+        },
+    },
+    epcis_body: EPCISBody {
+        event_list: EventList {
+            event_object: [
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                            "urn:epc:id:sgtin:0999999.000005.100333338642",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+                ObjectEvent {
+                    event_time: "2019-10-19T16:33:49.342Z",
+                    event_time_zone_offset: "+08:00",
+                    epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0999999.000005.100333338641",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:commissioning",
+                    disposition: "urn:epcglobal:cbv:disp:active",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0000000.00000.0",
+                        },
+                    },
+                    extension: Extension {
+                        ilmd: Ilmd {
+                            lot_number: "22222",
+                            item_expiration_date: "2022-03-12",
+                        },
+                    },
+                },
+            ],
+            aggregation_object: [
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+                AggregationEvent {
+                    event_time: "2017-11-06T16:16:21.400Z",
+                    event_time_zone_offset: "+08:00",
+                    child_epc_list: EpcList {
+                        epc: [
+                            "urn:epc:id:sgtin:0327505.004006.100000508412",
+                            "urn:epc:id:sgtin:0327505.004006.100000708828",
+                            "urn:epc:id:sgtin:0327505.004006.100000908800",
+                            "urn:epc:id:sgtin:0327505.004006.110000008507",
+                        ],
+                    },
+                    action: "ADD",
+                    biz_step: "urn:epcglobal:cbv:bizstep:packing",
+                    disposition: "urn:epcglobal:cbv:disp:in_progress",
+                    read_point: ReadPoint {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                    biz_location: BizLocation {
+                        id: Id {
+                            element_content: "urn:epc:id:sgln:0096296.49433.0",
+                        },
+                    },
+                },
+            ],
+        },
+    },
+}
+
+Process finished with exit code 0
